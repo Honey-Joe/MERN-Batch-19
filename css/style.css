@@ -1,0 +1,26 @@
+/* External CSS   */
+
+
+
+.heading-2 {
+  color: violet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bolder; /* range of font weight - 100 - 900*/
+  font-style: italic;
+}
+.para-class {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder; /* range of font weight - 100 - 900*/
+  font-style: italic;
+  text-align:right;
+  text-decoration:overline ;
+  text-transform: uppercase;
+  line-height: 30px;
+}
