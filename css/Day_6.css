@@ -1,0 +1,42 @@
+p {
+  /* color: blue; */
+  color: rgb(35, 45, 55);
+  /* color:#fff452 ; */
+  color: hsl(25, 35, 40);
+}
+
+/* background properties  */
+
+.container {
+  background-color: #ff00ff;
+  height: 200px;
+  background-image: url("https://ik.imagekit.io/HoneyJoe/MERN%20Batch%2019/download.jpeg?updatedAt=1752508372611");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 2px solid black; */
+  opacity: 0.8;
+
+}
+
+/* box model  */
+
+.container2{
+    /* aspect-ratio: ; */
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    /* padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 25px; */
+    padding: 20px 10px 5px 25px; /* top right bottom left */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: #5b0404; */
+    border: 3px dashed #ff0000;
+    border-radius: 20px;
+    /* border-top-left-radius:30px ; */
+    /* border-top-right-radius: 30px; */
+    margin: 20px;
+}
