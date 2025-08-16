@@ -8,6 +8,78 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <!-- navbar section  -->
+    <div class="2xl:container mx-auto bg-white sticky top-0">
+      <div class="w-[80%] mx-auto grid grid-cols-3 items-center py-3">
+        <!-- logo  -->
+        <div class="">
+          <img
+            src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-munch-img.png"
+            alt="logo"
+            width="80px"
+            height="80px"
+          />
+        </div>
+        <!-- nav items   -->
+        <div class="col-span-2">
+          <ul class="lg:flex items-center gap-5 justify-end hidden">
+            <li><a href="#whychooseus">Why Choose Us?</a></li>
+            <li><a href="#explore">Explore Our Menu</a></li>
+            <li><a href="#freshhealthy">Fresh Healthy</a></li>
+            <li><a href="#payment">Payment</a></li>
+            <li><a href="#redeem">Redeem</a></li>
+          </ul>
+
+          <div class="lg:hidden flex justify-end">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu-icon lucide-menu"
+            >
+              <path d="M4 12h16" />
+              <path d="M4 18h16" />
+              <path d="M4 6h16" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hero section start  -->
+    <section>
+      <div
+        class="2xl:container mx-auto bg-[url('https://ik.imagekit.io/HoneyJoe/Mern%20Batch%2016/Food%20Store/foodmunch-banner-bg.png?updatedAt=1745939013497')] h-screen bg-no-repeat bg-cover bg-center"
+      >
+        <div class="w-[80%] mx-auto flex justify-center items-center h-full">
+          <div class="flex flex-col items-center gap-3">
+            <h1 class="text-white text-[48px] font-bold text-center">
+              Get Delicious Food at Anytime
+            </h1>
+            <p class="text-white text-[24px] text-center">
+              Eat Smart and Healthy
+            </p>
+            <div class="flex gap-5">
+              <button class="py-2 px-3 rounded-lg bg-[#C3A701] text-white">
+                View Menu
+              </button>
+              <button
+                class="py-2 px-3 rounded-lg border border-[#C3A701] text-[#C3A701]"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Why Choose Us? Starting  -->
     <section class="py-10">
       <div class="2xl:container mx-auto bg-[#F9FAFE] space-y-5">
@@ -558,12 +630,21 @@
 
     <!-- Footer Starting  -->
     <footer class="py-14 bg-[#0E2536]">
-      <div class="w-[80%] flex flex-col items-center gap-2 mx-auto justify-center">
-        <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-munch-img.png" alt="footer image" class="w-12 h-12">
-        <p class="font-[Roboto] font-medium text-base text-[#959ead]">orderfood@foodmunch.com</p>
-        <p class="font-[Roboto]  text-base text-[#959ead]">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+      <div
+        class="w-[80%] flex flex-col items-center gap-2 mx-auto justify-center"
+      >
+        <img
+          src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-munch-img.png"
+          alt="footer image"
+          class="w-12 h-12"
+        />
+        <p class="font-[Roboto] font-medium text-base text-[#959ead]">
+          orderfood@foodmunch.com
+        </p>
+        <p class="font-[Roboto] text-base text-[#959ead]">
+          123 Ayur Vigyan Nagar, New Delhi, India.
+        </p>
       </div>
-
     </footer>
     <!-- Footer Ending  -->
   </body>

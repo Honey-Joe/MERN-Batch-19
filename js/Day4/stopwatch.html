@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="2xl:container mx-auto">
+      <div class="w-[90%] mx-auto flex justify-center items-center h-screen">
+        <div class="flex flex-col items-center gap-5">
+          <h1 class="text-[49px] font-bold" id="count">0</h1>
+          <div class="flex items-center gap-5">
+            <button
+              id="start"
+              class="py-2 px-6 rounded-lg bg-green-700 text-white"
+            >
+              Start
+            </button>
+            <button
+              id="stop"
+              class="py-2 px-6 rounded-lg bg-red-700 text-white"
+            >
+              Stop
+            </button>
+            <button
+              id="timer"
+              class="py-2 px-6 rounded-lg bg-blue-700 text-white"
+            >
+              Timer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var count = document.getElementById("count");
+      var start = document.getElementById("start");
+      var stop = document.getElementById("stop");
+      var timer = document.getElementById("timer");
+
+      var setI;
+      start.addEventListener("click", () => {
+        setI = setInterval(() => {
+          count.textContent = parseInt(count.textContent) + 1;
+        }, 1000);
+      });
+
+      stop.addEventListener("click", () => {
+        clearInterval(setI);
+      });
+
+      timer.addEventListener("click", () => {
+        setTimeout(() => {
+          alert("Overtime");
+          clearInterval(setI);
+        }, 5000);
+      });
+    </script>
+  </body>
+</html>
