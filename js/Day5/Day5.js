@@ -29,7 +29,7 @@ async function fetchData() {
   try {
     const response = await fetch("https://dummyjson.com/users");
     const data = await response.json();
-    console.log(data.users[0].address.coordinates.lat);
+    console.log(data.users);
   } catch (error) {
     console.log(`Internal server error ${error}`);
   }
