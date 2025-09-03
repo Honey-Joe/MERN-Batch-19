@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar starting  */
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-size: 32px !important;
+}
+.navbar-brand:hover {
+  color: red !important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+.nav-link:hover {
+  color: red !important;
+  cursor: pointer;
+}
+.search {
+  width: 50%;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 60px;
+  padding: 20px 30px;
+}
+.btn0 {
+  all: unset;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  
+}
+.btn0:hover {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+/* navbar ending  */
+
+/* main Section starting  */
+.main{
+    background-image: url(https://ik.imagekit.io/HoneyJoe/assets/main_section.jpg?updatedAt=1756895061285);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.main-content{
+    margin-top:200px ;
+}
+.btn1{
+    all: unset;
+    background-color: red;
+    margin-left: 38%;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color: black;
+}
+
+/* main section ending  */
